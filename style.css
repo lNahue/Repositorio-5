@@ -1,0 +1,120 @@
+* {
+    background: grey;
+
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 15px;
+    background-color: black;
+}
+
+.punto {
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#dado1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.columna {
+
+    height: 28%;
+
+    background-color: transparent;
+
+    outline: 1px transparent red;
+}
+
+#columna3-dado2 {
+    display: flex;
+
+    justify-content: end;
+}
+
+#columnad3{
+    height: 0%;
+}
+
+#columna2-dado3{
+    height: 27%;
+    display: flex;
+    justify-content: center;
+}
+
+#columna3-dado3{
+    display: flex;
+    justify-content: end;
+    height: 40%;
+    align-items: end;
+}
+
+#columnad4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#columna3-dado4{
+    height: 45%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+
+#columnad5{
+    display: flex;
+    justify-content: space-between;
+}
+
+#columna2-dado5{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    align-items: flex-end;
+}
+
+#columna3-dado5{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+#columnad6{
+    display: flex;
+    justify-content: space-between;
+}
+
+#columna2-dado6{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    align-items: end;
+}
+
+#columna3-dado6{
+    display: flex;
+    justify-content: space-between;
+}
